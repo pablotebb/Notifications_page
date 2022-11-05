@@ -1,0 +1,164 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+
+    <link
+      rel="icon"
+      type="image/png"
+      sizes="32x32"
+      href="./images/favicon-32x32.png"
+    />
+
+    <!-- OWN CSS -->
+    <link rel="stylesheet" href="./styles.css" />
+
+    <title>Frontend Mentor | Notifications page</title>
+  </head>
+  <body>
+    <!-- MAIN CONTAINER -->
+    <main class="main-container">
+      <!-- HEADER -->
+      <header class="header">
+        <h1 class="header__name">Notifications</h1>
+        <span class="header__count">3</span>
+        <span class="header__mark-all">Mark all as read</span>
+      </header>
+      <!-- CARDS -->
+      <div class="cards">
+        <!-- CARD 1 => Mark Webber -->
+        <article class="cards-card-1">
+          <details class="cards-card-1-details">
+            <summary class="cards-card-1-summary">
+              <h2 class="cards-card-1-summary__title">
+                Mark Webber reacted to your recent post My first tournament
+                today!
+              </h2>
+              <p class="cards-card-1-summary__time">1m ago</p>
+            </summary>
+            <p class="cards-card-1-details__paragraph">
+              Lorem ipsum dolor sit amet consectetur adipisicing elit. Deleniti
+              nulla ratione illo maxime fugit nam ipsa dolorum necessitatibus
+              repudiandae, sequi fugiat quod hic perspiciatis nisi incidunt
+              exercitationem nobis, neque ipsam.
+            </p>
+          </details>
+        </article>
+        <!-- CARD 2 => Angela Gray -->
+        <article class="cards-card-2">
+          <details class="cards-card-2-details">
+            <summary class="cards-card-2-summary">
+              <h2 class="cards-card-2-summary__title">
+                Angela Gray followed you
+              </h2>
+              <p class="cards-card-2-summary__time">5m ago</p>
+            </summary>
+            <p class="cards-card-2-details__paragraph">
+              Lorem ipsum dolor sit amet consectetur adipisicing elit. Deserunt
+              saepe, qui sint illum debitis quisquam vitae alias nisi nobis
+              molestiae doloribus incidunt necessitatibus praesentium laudantium
+              dolor excepturi sed, dolorem eaque!
+            </p>
+          </details>
+        </article>
+        <!-- CARD 3 => Jacob Thompson -->
+        <article class="cards-card-3">
+          <details class="cards-card-3-details">
+            <summary class="cards-card-3-summary">
+              <h2 class="cards-card-3-summary__title">
+                Jacob Thompson has joined your group Chess Club
+              </h2>
+              <p class="cards-card-3-summary__time">1 day ago</p>
+            </summary>
+            <p class="cards-card-3-details__paragraph">
+              Lorem ipsum dolor sit amet, consectetur adipisicing elit. Nostrum
+              iusto animi ipsa, porro, aliquam quasi magni ab voluptate expedita
+              voluptatibus voluptatem soluta, tempore repellat mollitia adipisci
+              deleniti error accusantium eum?
+            </p>
+          </details>
+        </article>
+        <!-- CARD 4 => Rizky Hasanuddin -->
+        <article class="cards-card-4">
+          <details class="cards-card-4-details">
+            <summary class="cards-card-4-summary">
+              <h2 class="cards-card-4-summary__title">
+                Rizky Hasanuddin sent you a private message
+              </h2>
+              <p class="cards-card-4-summary__time">5 days ago</p>
+            </summary>
+            <p class="cards-card-4-details__paragraph">
+              Hello, thanks for setting up the Chess Club. I've been a member
+              for a few weeks now and I'm already having lots of fun and
+              improving my game.
+            </p>
+          </details>
+        </article>
+        <!-- CARD 5 => Kimberly Smith -->
+        <article class="cards-card-5">
+          <details class="cards-card-5-details">
+            <summary class="cards-card-5-summary">
+              <h2 class="cards-card-5-summary__title">
+                Kimberly Smith commented on your picture
+              </h2>
+              <p class="cards-card-5-summary__time">1 week ago</p>
+            </summary>
+            <p class="cards-card-5-details__paragraph">
+              Lorem, ipsum dolor sit amet consectetur adipisicing elit. Debitis
+              sit error nisi necessitatibus fugiat placeat laboriosam amet id
+              nemo numquam consequuntur nam corrupti minus rerum, natus sequi
+              praesentium veniam vitae?
+            </p>
+          </details>
+        </article>
+        <!-- CARD 6 => Nathan Peterson -->
+        <article class="cards-card-6">
+          <details class="cards-card-6-details">
+            <summary class="cards-card-6-summary">
+              <h2 class="cards-card-6-summary__title">
+                Nathan Peterson reacted to your recent post 5 end-game
+                strategies to increase your win rate
+              </h2>
+              <p class="cards-card-6-summary__time">2 weeks ago</p>
+            </summary>
+            <p class="cards-card-6-details__paragraph">
+              Lorem ipsum dolor, sit amet consectetur adipisicing elit. Facere
+              quos ea voluptate blanditiis nisi ipsam necessitatibus? Nobis iure
+              blanditiis harum maxime, consectetur nemo numquam nesciunt eaque
+              et laborum. Quidem, quasi.
+            </p>
+          </details>
+        </article>
+        <!-- CARD 6 => Anna Kim -->
+        <article class="cards-card-7">
+          <details class="cards-card-7-details">
+            <summary class="cards-card-7-summary">
+              <h2 class="cards-card-7-summary__title">
+                Anna Kim left the group Chess Club
+              </h2>
+              <p class="cards-card-7-summary__time">2 weeks ago</p>
+            </summary>
+            <p class="cards-card-7-details__paragraph">
+              Lorem ipsum dolor sit amet, consectetur adipisicing elit. Ducimus
+              obcaecati debitis ut saepe minima, quos veritatis tenetur odit
+              impedit accusamus labore iusto esse repudiandae consequuntur
+              asperiores nulla beatae vitae? Atque!
+            </p>
+          </details>
+        </article>
+      </div>
+    </main>
+
+    <!-- FOOTER -->
+    <footer class="attribution">
+      Challenge by
+      <a href="https://www.frontendmentor.io?ref=challenge" target="_blank"
+        >Frontend Mentor</a
+      >. Coded by <a href="#" target="_blank">Pablo Belda</a>.
+    </footer>
+
+    <!-- OWN JS -->
+    <script src="./js/main.js"></script>
+  </body>
+</html>
