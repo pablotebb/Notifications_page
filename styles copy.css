@@ -1,5 +1,4 @@
 @import url("https://fonts.googleapis.com/css2?family=Plus+Jakarta+Sans:wght@500;800&display=swap");
-
 /* 
 It makes the calculations of the measurement of the variables, from the desktop to the mobile
 */
@@ -32,20 +31,17 @@ body {
     align-items: center;
     margin-bottom: 28px;
   }
-
   .header .header-container-left {
     display: flex;
     gap: 10px;
     align-items: center;
   }
-
   .header__name {
     font-size: 1.48rem;
     letter-spacing: 0.015rem;
     width: 152px;
     height: 30px;
   }
-
   .header__count {
     padding: 2px 10px;
     background-color: hsl(219deg, 85%, 26%);
@@ -54,20 +50,17 @@ body {
     color: hsl(0deg, 0%, 100%);
     border-radius: 7px;
   }
-
   .header__mark-all {
     font-size: 1rem;
     font-weight: 400;
     letter-spacing: 0.08px;
     color: hsl(219deg, 12%, 42%);
   }
-
   .header__mark-all:hover {
     cursor: pointer;
     color: hsl(219deg, 85%, 26%);
   }
 }
-
 @media (max-width: 576px) {
   .header {
     display: flex;
@@ -75,50 +68,43 @@ body {
     align-items: center;
     margin-bottom: 28px;
   }
-
   .header .header-container-left {
     display: flex;
     gap: 1px;
     align-items: center;
   }
-
   .header__name {
     font-size: 1.2rem;
     letter-spacing: 0.24px;
     font-weight: 700;
     width: 132px;
   }
-
   .header__count {
     padding: 1px 7px;
     font-weight: 400;
   }
-
   .header__mark-all {
     font-size: 0.94rem;
     letter-spacing: 0.08px;
   }
 }
-
 @media (max-width: 90.625rem) {
-
   .cards .cards-card-1__details,
-  .cards .cards-card-2__details,
-  .cards .cards-card-3__details,
-  .cards .cards-card-4__details,
-  .cards .cards-card-5__details,
-  .cards .cards-card-6__details,
-  .cards .cards-card-7__details {
+.cards .cards-card-2__details,
+.cards .cards-card-3__details,
+.cards .cards-card-4__details,
+.cards .cards-card-5__details,
+.cards .cards-card-6__details,
+.cards .cards-card-7__details {
     padding: 18px 18px 14px 19px;
   }
-
   .cards .cards-card-1__details__paragraph,
-  .cards .cards-card-2__details__paragraph,
-  .cards .cards-card-3__details__paragraph,
-  .cards .cards-card-4__details__paragraph,
-  .cards .cards-card-5__details__paragraph,
-  .cards .cards-card-6__details__paragraph,
-  .cards .cards-card-7__details__paragraph {
+.cards .cards-card-2__details__paragraph,
+.cards .cards-card-3__details__paragraph,
+.cards .cards-card-4__details__paragraph,
+.cards .cards-card-5__details__paragraph,
+.cards .cards-card-6__details__paragraph,
+.cards .cards-card-7__details__paragraph {
     margin-left: 64px;
     font-size: 1rem;
     letter-spacing: 0.096px;
@@ -128,84 +114,77 @@ body {
     border-radius: 4px;
     transition: all 0.25s ease-in-out;
   }
-
   .cards .cards-card-1__details__paragraph:hover,
-  .cards .cards-card-2__details__paragraph:hover,
-  .cards .cards-card-3__details__paragraph:hover,
-  .cards .cards-card-4__details__paragraph:hover,
-  .cards .cards-card-5__details__paragraph:hover,
-  .cards .cards-card-6__details__paragraph:hover,
-  .cards .cards-card-7__details__paragraph:hover {
+.cards .cards-card-2__details__paragraph:hover,
+.cards .cards-card-3__details__paragraph:hover,
+.cards .cards-card-4__details__paragraph:hover,
+.cards .cards-card-5__details__paragraph:hover,
+.cards .cards-card-6__details__paragraph:hover,
+.cards .cards-card-7__details__paragraph:hover {
     cursor: pointer;
     background-color: hsl(205deg, 33%, 90%);
   }
-
   .cards .cards-card-1__summary,
-  .cards .cards-card-2__summary,
-  .cards .cards-card-3__summary,
-  .cards .cards-card-4__summary,
-  .cards .cards-card-5__summary,
-  .cards .cards-card-6__summary,
-  .cards .cards-card-7__summary {
+.cards .cards-card-2__summary,
+.cards .cards-card-3__summary,
+.cards .cards-card-4__summary,
+.cards .cards-card-5__summary,
+.cards .cards-card-6__summary,
+.cards .cards-card-7__summary {
     list-style: none;
     display: flex;
     flex-direction: row;
     align-items: center;
     gap: 20px;
   }
-
   .cards .cards-card-1__summary__picture img,
-  .cards .cards-card-2__summary__picture img,
-  .cards .cards-card-3__summary__picture img,
-  .cards .cards-card-4__summary__picture img,
-  .cards .cards-card-5__summary__picture img,
-  .cards .cards-card-6__summary__picture img,
-  .cards .cards-card-7__summary__picture img {
+.cards .cards-card-2__summary__picture img,
+.cards .cards-card-3__summary__picture img,
+.cards .cards-card-4__summary__picture img,
+.cards .cards-card-5__summary__picture img,
+.cards .cards-card-6__summary__picture img,
+.cards .cards-card-7__summary__picture img {
     width: 45px;
     height: 45px;
   }
-
   .cards .cards-card-1__summary__title,
-  .cards .cards-card-2__summary__title,
-  .cards .cards-card-3__summary__title,
-  .cards .cards-card-4__summary__title,
-  .cards .cards-card-5__summary__title,
-  .cards .cards-card-6__summary__title,
-  .cards .cards-card-7__summary__title {
+.cards .cards-card-2__summary__title,
+.cards .cards-card-3__summary__title,
+.cards .cards-card-4__summary__title,
+.cards .cards-card-5__summary__title,
+.cards .cards-card-6__summary__title,
+.cards .cards-card-7__summary__title {
     font-size: 1rem;
     letter-spacing: 0.112px;
     font-weight: normal;
   }
-
   .cards .cards-card-1__summary__title span,
-  .cards .cards-card-2__summary__title span,
-  .cards .cards-card-3__summary__title span,
-  .cards .cards-card-4__summary__title span,
-  .cards .cards-card-5__summary__title span,
-  .cards .cards-card-6__summary__title span,
-  .cards .cards-card-7__summary__title span {
+.cards .cards-card-2__summary__title span,
+.cards .cards-card-3__summary__title span,
+.cards .cards-card-4__summary__title span,
+.cards .cards-card-5__summary__title span,
+.cards .cards-card-6__summary__title span,
+.cards .cards-card-7__summary__title span {
     font-weight: 700;
     color: hsl(224deg, 21%, 14%);
     letter-spacing: 0.08px;
   }
-
   .cards .cards-card-1__summary__title span:hover,
-  .cards .cards-card-2__summary__title span:hover,
-  .cards .cards-card-3__summary__title span:hover,
-  .cards .cards-card-4__summary__title span:hover,
-  .cards .cards-card-5__summary__title span:hover,
-  .cards .cards-card-6__summary__title span:hover,
-  .cards .cards-card-7__summary__title span:hover {
+.cards .cards-card-2__summary__title span:hover,
+.cards .cards-card-3__summary__title span:hover,
+.cards .cards-card-4__summary__title span:hover,
+.cards .cards-card-5__summary__title span:hover,
+.cards .cards-card-6__summary__title span:hover,
+.cards .cards-card-7__summary__title span:hover {
     color: hsl(219deg, 85%, 26%);
   }
-
   .cards .cards-card-1__summary__title .point,
-  .cards .cards-card-2__summary__title .point,
-  .cards .cards-card-3__summary__title .point,
-  .cards .cards-card-4__summary__title .point,
-  .cards .cards-card-5__summary__title .point,
-  .cards .cards-card-6__summary__title .point,
-  .cards .cards-card-7__summary__title .point {
+.cards .cards-card-2__summary__title .point,
+.cards .cards-card-3__summary__title .point,
+.cards .cards-card-4__summary__title .point,
+.cards .cards-card-5__summary__title .point,
+.cards .cards-card-6__summary__title .point,
+.cards .cards-card-7__summary__title .point {
     display: inline-block;
     width: 8px;
     height: 8px;
@@ -214,78 +193,69 @@ body {
     position: relative;
     left: 5px;
   }
-
   .cards .cards-card-1__summary__title .non-display,
-  .cards .cards-card-2__summary__title .non-display,
-  .cards .cards-card-3__summary__title .non-display,
-  .cards .cards-card-4__summary__title .non-display,
-  .cards .cards-card-5__summary__title .non-display,
-  .cards .cards-card-6__summary__title .non-display,
-  .cards .cards-card-7__summary__title .non-display {
+.cards .cards-card-2__summary__title .non-display,
+.cards .cards-card-3__summary__title .non-display,
+.cards .cards-card-4__summary__title .non-display,
+.cards .cards-card-5__summary__title .non-display,
+.cards .cards-card-6__summary__title .non-display,
+.cards .cards-card-7__summary__title .non-display {
     display: none;
   }
-
   .cards .cards-card-1__summary__time,
-  .cards .cards-card-2__summary__time,
-  .cards .cards-card-3__summary__time,
-  .cards .cards-card-4__summary__time,
-  .cards .cards-card-5__summary__time,
-  .cards .cards-card-6__summary__time,
-  .cards .cards-card-7__summary__time {
+.cards .cards-card-2__summary__time,
+.cards .cards-card-3__summary__time,
+.cards .cards-card-4__summary__time,
+.cards .cards-card-5__summary__time,
+.cards .cards-card-6__summary__time,
+.cards .cards-card-7__summary__time {
     font-size: 1rem;
     font-weight: normal;
     color: hsl(219deg, 14%, 63%);
   }
 }
-
 @media (max-width: 576px) {
-
   .cards .cards-card-1__details__paragraph,
-  .cards .cards-card-2__details__paragraph,
-  .cards .cards-card-3__details__paragraph,
-  .cards .cards-card-4__details__paragraph,
-  .cards .cards-card-5__details__paragraph,
-  .cards .cards-card-6__details__paragraph,
-  .cards .cards-card-7__details__paragraph {
+.cards .cards-card-2__details__paragraph,
+.cards .cards-card-3__details__paragraph,
+.cards .cards-card-4__details__paragraph,
+.cards .cards-card-5__details__paragraph,
+.cards .cards-card-6__details__paragraph,
+.cards .cards-card-7__details__paragraph {
     margin-top: 10px;
     font-size: 14.4px;
   }
-
   .cards .cards-card-1__summary__title,
-  .cards .cards-card-2__summary__title,
-  .cards .cards-card-3__summary__title,
-  .cards .cards-card-4__summary__title,
-  .cards .cards-card-5__summary__title,
-  .cards .cards-card-6__summary__title,
-  .cards .cards-card-7__summary__title {
+.cards .cards-card-2__summary__title,
+.cards .cards-card-3__summary__title,
+.cards .cards-card-4__summary__title,
+.cards .cards-card-5__summary__title,
+.cards .cards-card-6__summary__title,
+.cards .cards-card-7__summary__title {
     font-size: 0.85rem;
   }
-
   .cards .cards-card-1__summary__title span,
-  .cards .cards-card-2__summary__title span,
-  .cards .cards-card-3__summary__title span,
-  .cards .cards-card-4__summary__title span,
-  .cards .cards-card-5__summary__title span,
-  .cards .cards-card-6__summary__title span,
-  .cards .cards-card-7__summary__title span {
+.cards .cards-card-2__summary__title span,
+.cards .cards-card-3__summary__title span,
+.cards .cards-card-4__summary__title span,
+.cards .cards-card-5__summary__title span,
+.cards .cards-card-6__summary__title span,
+.cards .cards-card-7__summary__title span {
     letter-spacing: 0.112px;
   }
-
   .cards .cards-card-1__summary__time,
-  .cards .cards-card-2__summary__time,
-  .cards .cards-card-3__summary__time,
-  .cards .cards-card-4__summary__time,
-  .cards .cards-card-5__summary__time,
-  .cards .cards-card-6__summary__time,
-  .cards .cards-card-7__summary__time {
+.cards .cards-card-2__summary__time,
+.cards .cards-card-3__summary__time,
+.cards .cards-card-4__summary__time,
+.cards .cards-card-5__summary__time,
+.cards .cards-card-6__summary__time,
+.cards .cards-card-7__summary__time {
     font-size: 0.85rem;
   }
 }
-
 .main-container {
   margin: 61px auto 87px;
 }
-
 @media (max-width: 90.625rem) {
   .main-container {
     background-color: hsl(0deg, 0%, 100%);
@@ -297,19 +267,16 @@ body {
     padding: 34px 30px 30px 32px;
   }
 }
-
 @media (max-width: 773px) {
   .main-container {
     margin: 51px auto 87px;
   }
 }
-
 @media (max-width: 576px) {
   .main-container {
     margin: 64px auto 87px;
   }
 }
-
 @media (max-width: 375px) {
   .main-container {
     width: 325px;

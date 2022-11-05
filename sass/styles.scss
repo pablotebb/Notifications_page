@@ -2,3 +2,12 @@
 @use "mixins" as m;
 @use "initial";
 @use "footer";
+
+@use "header";
+@use "cards";
+
+//🌀
+.main-container {
+  margin: 61px auto 87px;
+  @include m.all_variables_dimensions(true, false);
+}

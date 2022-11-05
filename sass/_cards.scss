@@ -1,0 +1,7 @@
+@use "variables" as v;
+@use "mixins" as m;
+
+//♣️
+.cards {
+  @include m.all_variables_dimensions(false, false, true);
+}
